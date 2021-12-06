@@ -1,0 +1,12 @@
+.myicons {
+    width: 30%;    
+}
+#myiconss {
+    text-align: center; 
+    margin-top: 35%;
+}
+body{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
