@@ -9,6 +9,9 @@
 }
 #game{
     background-image: url("./1413760.jpg");
+}
+.body{
+    background-image: url(./background.jpg);
     background-repeat: no-repeat;
     width: 1500px;
     height: 735px;
@@ -71,3 +74,13 @@
     color: white;
   }
 
+.mybuttons {
+    text-align: center;
+    margin-top: 4%;
+}
+.lefthands{
+    text-align:left
+}
+.righthands{
+    text-align: right;
+}
