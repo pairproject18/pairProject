@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $(".btn").click(function(){
     $("#home").toggle(2000);
-    $("#home").css()
   });
 }); 
 
