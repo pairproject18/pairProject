@@ -1,12 +1,15 @@
-.myicons {
-    width: 30%;    
-}
-#myiconss {
-    text-align: center; 
-    margin-top: 35%;
-}
 body{
     background-image: url(./background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.mybuttons {
+    text-align: center;
+    margin-top: 4%;
+}
+.lefthands{
+    text-align:left
+}
+.righthands{
+    text-align: right;
 }
