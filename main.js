@@ -1,8 +1,10 @@
 $(document).ready(function(){
   $(".btn").click(function(){
     $("#home").toggle(2000);
+    $("#home").css()
   });
 }); 
+
 $(document).ready(function(){
   $("#back").click(function(){
     $("#home").toggle(2000);
@@ -87,9 +89,11 @@ if(computeresult=="scissors"){
 }
 if ($("#playercounter").text()==3){
   $("#res").text("winner") 
+  $("#res").css("color","green")
 }
 if ($("#computercounter").text()==3){
   $("#res").text("loser") 
+  $("#res").css("color","red")
 }
 
 
@@ -115,17 +119,19 @@ if(computeresult=="rock"){
   if(computeresult=="scissors"){
     $("#computercounter").text(computer()) 
   }
-if ($("#playercounter").text()==3){
-  $("#res").text("winner") 
-}
-if ($("#computercounter").text()==3){
-  $("#res").text("loser") 
-}
+  if ($("#playercounter").text()==3){
+    $("#res").text("winner") 
+    $("#res").css("color","green")
+  }
+  if ($("#computercounter").text()==3){
+    $("#res").text("loser") 
+    $("#res").css("color","red")
+  }
 computeresult="#right"+computeresult
 $(computeresult).show()
 
 $("#decision").html(result);
-// $("#playercounter").text()="player"+playercounter.toString()
+
 });
 $("#scissors").click(function(){
   $("#leftrock").hide()
@@ -143,10 +149,17 @@ if(computeresult=="paper"){
   if(computeresult=="rock"){
    $("#computercounter").text(computer()) 
   }
+  if ($("#playercounter").text()==3){
+    $("#res").text("winner") 
+    $("#res").css("color","green")
+  }
+  if ($("#computercounter").text()==3){
+    $("#res").text("loser") 
+    $("#res").css("color","red")
+  }
 computeresult="#right"+computeresult
 $(computeresult).show()
 $("#decision").html(result);
-// $("#playercounter").text()="player"+playercounter.toString()
 });
 function makeCounter(){
   var counter=0

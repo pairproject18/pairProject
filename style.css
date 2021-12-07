@@ -9,16 +9,14 @@
 }
 #game{
     background-image: url("./1413760.jpg");
-}
-.body{
-    background-image: url(./background.jpg);
     background-repeat: no-repeat;
-    width: 1500px;
-    height: 735px;
-    padding: 50px;;
-    margin-left:-30px;
-    margin-top: 1px;
+    position: absolute;
+   
+    left: 1px;
+    height: 900px;
+    width: 1550px;
 }
+
 
 
 .btn {
@@ -74,13 +72,44 @@
     color: white;
   }
 
-.mybuttons {
-    text-align: center;
-    margin-top: 4%;
+#playercounter1{
+    color: rgb(17, 10, 10);
+    position: absolute;
+    font-size: 50px;
+    left: 200px;
+    border-style:outset;
 }
+#computercounter1{
+    color: rgb(17, 10, 10);
+    position: absolute;
+    font-size: 50px;
+    left: 1000px;
+    border-style: outset;
+}
+
 .lefthands{
-    text-align:left
+ position:absolute;
+ left: 300px;
+ top: 250px;
 }
+
 .righthands{
-    text-align: right;
+  position:absolute;
+  right: 400px;
+  top: 250px;
+}
+.but{
+    position:absolute;
+    top: 500px;
+    left: 550px;
+}
+#decision{
+   text-align: center;
+   color:white
+}
+#res{
+position: absolute;
+left: 600px;
+font-size: 80px;
+
 }
