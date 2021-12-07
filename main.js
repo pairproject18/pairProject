@@ -1,4 +1,20 @@
+$(document).ready(function(){
+  $(".btn").click(function(){
+    $("#home").toggle(2000);
+  });
+}); 
+$(document).ready(function(){
+  $("#back").click(function(){
+    $("#home").toggle(2000);
+  });
+}); 
 
+
+
+
+  
+  
+  
 
 $("#leftrock").hide()
 $("#leftpaper").hide()
