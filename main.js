@@ -109,7 +109,7 @@ computeresult="#right"+computeresult
 $(computeresult).show()
 
 $("#decision").html(result);
-$("#playercounter").text()="player"+playercounter.toString()
+// $("#playercounter").text()="player"+playercounter.toString()
 });
 $("#scissors").click(function(){
   $("#leftrock").hide()
@@ -130,7 +130,7 @@ if(computeresult=="paper"){
 computeresult="#right"+computeresult
 $(computeresult).show()
 $("#decision").html(result);
-$("#playercounter").text()="player"+playercounter.toString()
+// $("#playercounter").text()="player"+playercounter.toString()
 });
 function makeCounter(){
   var counter=0
